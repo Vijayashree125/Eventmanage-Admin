@@ -63,7 +63,7 @@ function LoginPage() {
                                     {errors.password && <p className="error">{errors.password.message}</p>}
                                 </div>
 
-                                <button type="submit" class="btn btn-success w-100">Submit</button>
+                                <button type="submit" class="btn btn-success w-100 mt-3">Submit</button>
                             </div>
                         </form>
 
